@@ -7,7 +7,7 @@ import bootstrap from "@/assets/img/skill/bootstrap.png";
 import nodejs from "@/assets/img/skill/nodejs.png";
 import php from "@/assets/img/skill/php.png";
 import figma from "@/assets/img/skill/figma.png";
-import canva from "@/assets/img/skill/Canva.png";
+import canva from "@/assets/img/skill/canva.png";
 import git from "@/assets/img/skill/git.png";
 import github from "@/assets/img/skill/github.png";
 import vercel from "@/assets/img/skill/vercel.png";
