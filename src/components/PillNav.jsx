@@ -1,13 +1,18 @@
 export default function PillNav({ items, active, className }) {
   return (
     <nav className={className}>
-      <ul className="flex items-center gap-2 relative">
+      <ul
+        className="
+          flex items-center
+          gap-1 sm:gap-2
+          whitespace-nowrap
+        "
+      >
         {items.map((item) => {
-          const id = item.href.replace("#", "");
-          const isActive = active === id;
+          const isActive = active === item.label;
 
           return (
-            <li key={item.label} className="relative">
+            <li key={item.label} className="relative flex-shrink-0">
               {isActive && (
                 <span
                   className="
@@ -23,8 +28,13 @@ export default function PillNav({ items, active, className }) {
               <a
                 href={item.href}
                 className={`
-                  relative px-4 py-2 rounded-full
-                  text-sm font-medium transition-all duration-300
+                  block
+                  px-3 sm:px-4
+                  py-1.5 sm:py-2
+                  text-xs sm:text-sm
+                  font-medium
+                  rounded-full
+                  transition-all
                   ${isActive ? "text-white" : "text-white/70 hover:text-white"}
                 `}
               >

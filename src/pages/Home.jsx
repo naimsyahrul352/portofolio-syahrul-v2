@@ -36,7 +36,8 @@ export default function Home() {
         <div className="mb-6 max-w-fit mx-auto">
           {visible && (
             <p className="text-lg sm:text-xl text-white/80 typewriter">
-              Frontend Developer ● UI/UX Designer ● IT Support
+              {/* Frontend Developer ● UI/UX Designer ● IT Support */}
+              Frontend Developer & UI/UX Designer
             </p>
           )}
         </div>
