@@ -7,7 +7,7 @@ export default function Skill() {
 
   return (
     <section
-      id="skills"
+      id="skill"
       className="min-h-screen px-6 py-24 flex items-center justify-center"
     >
       <div

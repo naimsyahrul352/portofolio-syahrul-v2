@@ -1,76 +1,87 @@
-import react from "@/assets/img/logo.png";
-// import tailwind from "@/assets/img/tailwind.png";
-// import js from "@/assets/img/js.png";
-// import html from "@/assets/img/html.png";
-// import css from "@/assets/img/css.png";
+import html from "@/assets/img/skill/html.png";
+import css from "@/assets/img/skill/css.png";
+import javascript from "@/assets/img/skill/javascript.png";
+import react from "@/assets/img/skill/react.png";
+import tailwind from "@/assets/img/skill/tailwind.png";
+import bootstrap from "@/assets/img/skill/bootstrap.png";
+import nodejs from "@/assets/img/skill/nodejs.png";
+import php from "@/assets/img/skill/php.png";
+import figma from "@/assets/img/skill/figma.png";
+import git from "@/assets/img/skill/git.png";
+import github from "@/assets/img/skill/github.png";
+import vercel from "@/assets/img/skill/vercel.png";
+import canva from "@/assets/img/skill/canva.png";
+import mysql from "@/assets/img/skill/mysql.png";
 
 export const skills = [
   {
     id: 1,
-    name: "React",
-    image: react,
+    name: "HTML",
+    image: html,
   },
   {
     id: 2,
-    image: react,
+    name: "CSS",
+    image: css,
   },
   {
     id: 3,
     name: "JavaScript",
-    image: react,
+    image: javascript,
   },
   {
     id: 4,
-    name: "HTML",
-    image: react,
-  },
-  {
-    id: 5,
-    name: "CSS",
-    image: react,
-  },
-  {
-    id: 6,
-    name: "CSS",
-    image: react,
-  },
-  {
-    id: 7,
-    name: "CSS",
-    image: react,
-  },
-  {
-    id: 8,
     name: "React",
     image: react,
   },
   {
+    id: 5,
+    name: "Tailwind",
+    image: tailwind,
+  },
+  {
+    id: 6,
+    name: "Bootstrap",
+    image: bootstrap,
+  },
+  {
+    id: 7,
+    name: "Node.js",
+    image: nodejs,
+  },
+  {
+    id: 8,
+    name: "PHP",
+    image: php,
+  },
+  {
     id: 9,
-    image: react,
+    name: "Figma",
+    image: figma,
   },
   {
     id: 10,
-    name: "JavaScript",
-    image: react,
+    name: "Canva",
+    image: canva,
   },
   {
     id: 11,
-    name: "HTML",
-    image: react,
+    name: "Git",
+    image: git,
   },
   {
     id: 12,
-    name: "CSS",
-    image: react,
+    name: "Github",
+    image: github,
   },
   {
     id: 13,
-    name: "CSS",
-    image: react,
+    name: "Vercel",
+    image: vercel,
   },
   {
     id: 14,
-    name: "CSS",
-    image: react,
+    name: "MySQL",
+    image: mysql,
   },
 ];

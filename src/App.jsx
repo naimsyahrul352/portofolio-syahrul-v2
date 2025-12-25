@@ -9,14 +9,14 @@ import Footer from "./pages/Footer";
 
 export default function App() {
   return (
-    <div className="relative min-h-screen bg-black text-white">
+    <div className="relative min-h-screen bg-black text-white overflow-x-hidden">
       {/* FIXED BACKGROUND */}
-      <div className="fixed inset-0 z-0 pointer-events-none">
-        <LiquidEther className="w-full h-full" />
+      <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+        <LiquidEther />
       </div>
 
       {/* CONTENT */}
-      <div className="relative z-10">
+      <div className="relative z-10 overflow-x-hidden">
         <Navbar />
         <Home />
         <About />

@@ -1,49 +1,43 @@
-import project1 from "@/assets/img/logo.png";
+import project1 from "@/assets/img/project/project1.png";
+import project2 from "@/assets/img/project/project2.png";
+import project3 from "@/assets/img/project/project3.png";
+import project4 from "@/assets/img/project/project4.png";
 
 export const projects = [
   {
     id: 1,
-    title: "Portfolio Website",
-    description: "Modern portfolio website with animations",
+    title: "E-Commerce Website",
+    description: "Modern e-commerce erbsite for fashion product online sales",
     image: project1,
-    tech: ["React", "Tailwind"],
-    demo: "#",
-    code: "#",
+    tech: ["HTML", "CSS", "JavaScript"],
+    demo: "https://naimsyahrul352.github.io/lionstyle87/",
+    code: "https://github.com/naimsyahrul352/lionstyle87",
   },
   {
     id: 2,
-    title: "Portfolio Website",
+    title: "Calculator Website",
     description:
-      "Modern portfolio website with animations Modern portfolio website with animations Modern portfolio website with animations",
-    image: project1,
-    tech: ["React", "Tailwind", "HTML", "CSS"],
-    demo: "#",
-    code: "#",
+      "Simple calculator website with fast accurate mathematical operations",
+    image: project2,
+    tech: ["HTML", "CSS", "JavaScript"],
+    demo: "https://naimsyahrul352.github.io/Kalkulator/",
+    code: "https://github.com/naimsyahrul352/Kalkulator",
   },
   {
     id: 3,
-    title: "Portfolio Website",
-    description: "Modern portfolio website with animations",
-    image: project1,
-    tech: ["React", "Tailwind"],
-    demo: "#",
+    title: "UI/UX Design",
+    description: "User-centerated UI/UX design for SKB Malang application",
+    image: project3,
+    tech: ["Figma"],
+    demo: "https://www.figma.com/proto/YeW2sEUY3JUlKQXgpt6msb/SKB?page-id=0%3A1&node-id=138-85&viewport=-350%2C136%2C0.17&t=8WhZlRhI6LsrdLQY-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1%3A2",
     code: "#",
   },
   {
     id: 4,
-    title: "Portfolio Website",
-    description: "Modern portfolio website with animations",
-    image: project1,
-    tech: ["React", "Tailwind"],
-    demo: "#",
-    code: "#",
-  },
-  {
-    id: 5,
-    title: "Portfolio Website",
-    description: "Modern portfolio website with animations",
-    image: project1,
-    tech: ["React", "Tailwind"],
+    title: "Village Website",
+    description: "Village information website providing public servic and news",
+    image: project4,
+    tech: ["React", "Tailwind", "php", "MySQL"],
     demo: "#",
     code: "#",
   },
