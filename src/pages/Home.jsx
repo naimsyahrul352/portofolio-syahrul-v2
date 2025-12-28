@@ -65,7 +65,7 @@ export default function Home() {
         >
           {/* BUTTON */}
           <a
-            href="/CV_Muhammad_Syahrul_Naim.pdf"
+            href="/CV_MuhammadSyahrulNaim.pdf"
             download
             className="
               px-7 py-3 rounded-full

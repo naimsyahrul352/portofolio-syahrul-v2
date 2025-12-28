@@ -1,11 +1,11 @@
 import project1 from "@/assets/img/project/project1.png";
 import project2 from "@/assets/img/project/project2.png";
 import project3 from "@/assets/img/project/project3.png";
-import project4 from "@/assets/img/project/project4.png";
+import project4 from "@/assets/img/project/project_4.png";
 
 export const projects = [
   {
-    id: 1,
+    id: 2,
     title: "E-Commerce Website",
     description: "Modern e-commerce erbsite for fashion product online sales",
     image: project1,
@@ -14,7 +14,7 @@ export const projects = [
     code: "https://github.com/naimsyahrul352/lionstyle87",
   },
   {
-    id: 2,
+    id: 4,
     title: "Calculator Website",
     description:
       "Simple calculator website with fast accurate mathematical operations",
@@ -33,12 +33,12 @@ export const projects = [
     code: "#",
   },
   {
-    id: 4,
+    id: 1,
     title: "Village Website",
     description: "Village information website providing public servic and news",
     image: project4,
     tech: ["React", "Tailwind", "php", "MySQL"],
-    demo: "#",
-    code: "#",
+    demo: "https://website-informasi-desa.vercel.app/",
+    code: "https://github.com/naimsyahrul352/website-informasi-desa",
   },
 ];
